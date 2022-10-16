@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body { box-sizing: border-box;
+    font-family: 'Sen',sans-serif;
+  }
+  .block {
+    float: left;
+    width: 100%;
+  }
+  .main-header {
+    padding-top: 15px;
+    padding-bottom: 26px;
+    height: 80px;
+    background-color: #232536;
+  }
+  .logo {
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .container {
+    margin: 0 80px;
+   
+  }
+  .btn {
+
+    padding: 16px 48px;
+    width: 179px;
+    height: 56px;
+    text-decoration: none;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+  }
+  .btn--white {
+    background: #ffffff;
+    float: right;
+    
+  }
+  
+  
+  .main-nav{
+    float: right;
+  }
+  
+  .main-nav ul{
+    float: left;
+    list-style: none;
+    padding-top: 16px;
+  }
+  .main-nav li {
+    float: left;
+    margin-right: 24px;
+  }
+  .main-nav li a{
+    text-decoration: none;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    
+  }
+  .hero{
+    background-image: url(/images/section1bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 823px;
+   }
+
+.hero-text{
+   padding:146.32px 556px 227px 0px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.hero-text h4{
+    width: 221.17px;
+    height: 22.86px;
+    margin-bottom: 27.43px;
+
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+   
+}
+.hero-text h1{
+    width: 800px;
+    height: 146.31px;
+
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+
+
+
+}
+.hero-text h6{
+    width: 200.09px;
+    height: 32.01px;
+    margin-bottom: 18.64px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+.hero-text h6 a{
+    color: #FFD050;
+}
+p{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+margin-bottom:70.51px;
+}
+.p--white{
+color: #FFFFFF;
+
+}
+.btn--yellow {
+    background: #FFD050;
+    
+    
+  }
+
+
