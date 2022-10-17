@@ -93,12 +93,15 @@ table {
     font-size: 18px;
     line-height: 24px;
     color: #232536;
-    margin-top: 20px;
+    margin-top: 0px;
     display: inline-block;
   }
   .btn--white {
     background: #ffffff;
     float: right;
+    width: 179px;
+     height: 56px;
+     padding: 16px 48px;
     
   }
   
@@ -464,4 +467,73 @@ width: 414px;
 height: 263px;
 margin-left: 500px;
 text-align: center;
+}
+
+
+
+/*footer */
+footer {
+  width: 1440px;
+  height: 560px;
+  background: #232536;
+}
+footer .main-nav{
+}
+.bg{
+   width: 100%;
+   height: 560px;
+    background: #232536;
+}
+.footer-text{
+  color: #FFFFFF;
+
+}
+.footer-hero{
+background: #ffffff09;
+width: 1280px;
+height: 256px;
+margin-left: 80px;
+
+}
+
+
+
+.footer-text ul{
+  float: left;
+  margin-top: 80px;
+  list-style: none;
+  padding-top: 16px;
+}
+.footer-text li {
+  float: left;
+  margin-right: 25px;
+}
+.footer-text li a{
+  text-decoration: none;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  
+}
+.footer-text .text{
+  width: 562px;
+  height: 96px;
+  
+}
+.footer-text #email{
+width: 303px;
+height: 56px;
+left: 770px;
+top: 228px;
+background: none;
+border: 1px solid #4C4C4C;
+padding: 14px;
+
+}
+.last{
+  width: 300px;
+  margin: 0 80px;
+  margin-bottom: 40px;
 }
