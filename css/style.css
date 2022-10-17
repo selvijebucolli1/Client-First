@@ -27,6 +27,7 @@
   }
   .container {
     margin: 0 80px;
+    margin-bottom: 40px;
    
   }
   .btn {
@@ -291,7 +292,8 @@ color: #232536;
 .hero4{
     height: 364px;
 }
-.hero4 h2{
+.title{
+    margin: 50x 0px;
     text-align: center;
 }
 .hero4 .article{
@@ -337,5 +339,41 @@ color: #232536;
     float: right;
 }
 .hero5 .article_text{
-   padding:80px 60px;
+  padding:80px 60px;
+}
+
+.hero6 .container{
+  margin: 80px;
+}
+
+.hero6 .article{
+  padding-top: 30px;
+  padding-right: 20px;
+  height: 324px;
+  background: #F4F4F4;
+  text-align: center;
+}
+.article_text{
+  
+}
+
+
+.article_text ul{
+  margin-left: 67px;
+  float: left;
+  list-style: none;
+  padding-top: 8px;
+}
+.article_text li {
+  float: left;
+  padding-right: 16px;
+  
+  
+}
+.article_text p{
+  margin-top: -4px;
+  margin-bottom: -1px;
+}
+.hero6 .active-article{
+  background: #FBF6EA;
 }
