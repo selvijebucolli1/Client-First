@@ -1,0 +1,389 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*general css fonts and headings */
+
+h1{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+  
+  h2{
+      
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+  }
+  
+  h3{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    }
+  h4{
+    
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  h6{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  
+  }
+  p{
+      
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    }
+  
+    /*kolonat*/
+.col {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .col-half {
+    width: 50%;
+  }
+  .col-third {
+    width: 33.33333333%;
+  }
+  .col-fourth  {
+    width: 25%;
+  }
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body { box-sizing: border-box;
+    font-family: 'Sen',sans-serif;
+    color: #232536;
+  }
+  .block {
+    float: left;
+    width: 100%;
+  }
+  .main-header {
+    padding-top: 15px;
+    padding-bottom: 26px;
+    height: 80px;
+    background-color: #232536;
+  }
+  .logo {
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .container {
+    margin: 0 80px;
+    
+   
+  }
+  .btn {
+   
+    text-decoration: none;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .btn--white {
+    background: #ffffff;
+    float: right;
+    width: 179px;
+     height: 56px;
+     padding: 16px 48px;
+    
+  }
+  
+  
+  .main-nav{
+    float: right;
+  }
+  
+  .main-nav ul{
+    float: left;
+    list-style: none;
+    padding-top: 16px;
+  }
+  .main-nav li {
+    float: left;
+    margin-right: 24px;
+  }
+  .main-nav li a{
+    text-decoration: none;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    
+  }
+
+
+  
+  .hero{
+    background-color: #F4F0F8;
+	height: 519px;
+   }
+  .hero h4{
+    width: 221.17px;
+    height: 22.86px;
+    margin-bottom: 27.43px;
+}
+.hero .article{
+    margin-top: 94px;
+}
+.hero img{
+    float: right;
+}
+
+.article_text h6 a{
+    color: #592EA9;
+}
+
+
+.p--gray{
+    color: #6D6E76;
+    margin-top: 16px;
+}
+
+.btn {
+   
+    text-decoration: none;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+    margin-top: 0px;
+    display: inline-block;
+  }
+
+  .btn--yellow {
+    margin-top: 15px;
+    background: #FFD050;
+    padding: 16px 32px;
+    width: 179px;
+    height: 56px;
+}
+
+
+
+
+
+
+
+
+
+.hero4{
+    height: 364px;
+}
+.title{
+    margin: 50x 0px;
+   
+}
+.hero4 .article{
+    padding-top: 30px;
+    height: 228px;
+    border: 1px solid #6D6E76;
+}
+
+.hero4 .logo{
+    width: 40px;
+    height: 10px;
+    padding-bottom: 34px;
+    margin-left: 32px;
+    background: #FBF6EA;
+    border-radius: 15px;
+    align-items: center;
+}
+.hero4 img{
+    padding-left: 5px;
+}
+.article_text{
+    margin-left:32px;
+}
+
+.hero4 .article_text{
+    margin-top: 61px;
+}
+.hero4 .active-article{
+    background: #FFD050;
+}
+
+
+
+
+.hero8 .article{
+
+    width: 414px;
+    height: 263px;
+    margin-left: 500px;
+    text-align: center;
+    }
+    
+    
+
+
+
+    
+
+/*footer */
+footer {
+    width: 1440px;
+    height: 560px;
+    background: #232536;
+  }
+  
+  .bg{
+     width: 100%;
+     height: 560px;
+      background: #232536;
+  }
+  .footer-text{
+    color: #FFFFFF;
+  
+  }
+  .footer-hero{
+  background: #ffffff09;
+  height: 256px;
+  margin-left: 80px;
+  margin-right: 80px;
+  
+  }
+  
+  
+  .footer-text ul{
+    float: left;
+    margin-top: 80px;
+    list-style: none;
+    padding-top: 16px;
+  }
+  .footer-text li {
+    float: left;
+    margin-right: 10px;
+  }
+  .footer-text li a{
+    text-decoration: none;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+  }
+  .footer-text .text{
+    width: 602px;
+    height: 96px;
+    
+  }
+  .footer-text .btn--yellow{
+    margin-top: -0px;
+  }
+  .footer-text #email{
+  width: 303px;
+  height: 56px;
+  left: 770px;
+  top: 228px;
+  background: none;
+  border: 1px solid #4C4C4C;
+  padding: 14px;
+  
+  }
+  .last{
+    width: 300px;
+    margin: 0 80px;
+    margin-bottom: 40px;
+  }
+  

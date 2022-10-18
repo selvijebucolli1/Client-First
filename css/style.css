@@ -47,6 +47,63 @@ table {
 	border-spacing: 0;
 }
 
+/*general css fonts and headings */
+
+h1{
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+
+h2{
+    
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  margin-bottom: 32px;
+}
+
+h3{
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  }
+h4{
+  
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+h6{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+}
+p{
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  }
+
+
+
 
 
 
@@ -146,26 +203,9 @@ table {
     width: 221.17px;
     height: 22.86px;
     margin-bottom: 27.43px;
-
-    font-family: 'Inter',sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
    
 }
 
-h1{
-    font-family: 'Sen';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
-    /* or 133% */
-    
-    letter-spacing: -2px;
-}
 .hero-text h1{
     width: 800px;
     height: 146.31px;
@@ -177,23 +217,11 @@ h1{
     width: 200.09px;
     height: 32.01px;
     margin-bottom: 18.64px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-
 }
 .hero-text h6 a{
     color: #FFD050;
 }
-p{
-    
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-}
+
 .p--white{
 color: #FFFFFF;
 margin-bottom:70.51px;
@@ -234,16 +262,6 @@ margin-bottom:70.51px;
     margin-top: 27px;
   }
   
-  h2{
-    
-    font-family: 'Sen';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: -2px;
-    margin-bottom: 32px;
-  }
   .hero2 .wrapper{
     border: 1px solid #6d6e7668;
     width: 733px;
@@ -271,15 +289,6 @@ margin-bottom: 8px;
 }
 .article_text h6 a{
     color: #592EA9;
-}
-
-h3{
-font-family: 'Sen';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 40px;
-letter-spacing: -1px;
 }
 
 .p--gray{
@@ -478,8 +487,7 @@ footer {
   height: 560px;
   background: #232536;
 }
-footer .main-nav{
-}
+
 .bg{
    width: 100%;
    height: 560px;
