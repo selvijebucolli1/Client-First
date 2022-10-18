@@ -199,7 +199,7 @@ color: #FFFFFF;
 margin-bottom:70.51px;
 }
 .btn--yellow {
-  margin-top: 15px;
+    margin-top: 15px;
     background: #FFD050;
     padding: 16px 28px;
     width: 179px;
@@ -491,12 +491,11 @@ footer .main-nav{
 }
 .footer-hero{
 background: #ffffff09;
-width: 1280px;
 height: 256px;
 margin-left: 80px;
+margin-right: 80px;
 
 }
-
 
 
 .footer-text ul{
@@ -507,7 +506,7 @@ margin-left: 80px;
 }
 .footer-text li {
   float: left;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 .footer-text li a{
   text-decoration: none;
@@ -519,9 +518,12 @@ margin-left: 80px;
   
 }
 .footer-text .text{
-  width: 562px;
+  width: 602px;
   height: 96px;
   
+}
+.footer-text .btn--yellow{
+  margin-top: -0px;
 }
 .footer-text #email{
 width: 303px;
